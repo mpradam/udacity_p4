@@ -13,39 +13,24 @@ There are no special requirements to run this project. The Anaconda distribution
 
 ## Project Motivation<a name="motivation"></a>
 
-For this exercise I was interested in using the AirBnB information provided [here](https://www.kaggle.com/airbnb/boston?select=reviews.csv) for the city of Boston.
+Assessing payment capacity is one of the most important issues when financial institutions need to assign credit limits. Although it might seem trivial, in some cases the information is no available, and due to the informality of some latinamercian economies (Colombia for this study case), it is important to build statistical models that can estimate the income of the customers. 
 
-The AirBnB team suggests the following questions of interest for analysis:
+What question do we want to answer?
 
-1. Can you describe the vibe of each Boston neighborhood using listing descriptions?
-2. What are the busiest times of the year to visit Boston? 
-3. By how much do prices spike?
-4. Is there a general upward trend of both new Airbnb listings and total Airbnb visitors to Boston?
-
-But what I realy would like to find out is if...
-
-1. There is a strong correlation between the size of the listing and its price.
-2. Location is the most important variable for demand and pricing.
-3. Past reviews impact future listings of the place.
-
-
-Content
-The following Airbnb activity is included in this Boston dataset:
-
-Listings, including full descriptions and average review score
-Reviews, including unique id for each reviewer and detailed comments
-Calendar, including listing id and the price and availability for that day
+1. Can the income be modeled after the spending patterns of the household?
+2. Can the income be modeled after the financial burden of the household?
+3. Is there a possible way financial institutions can include this informetion in their models?
 
 
 Acknowledgement
-This dataset is part of Airbnb Inside, and the original source can be found [here](http://insideairbnb.com/get-the-data.html).
+We are going to be using the data from the National Administrative Department of Statistics of Colombia DANE. The database is the result of a survey conducted to more than 25k households in three major cities in Colombia for 2018.
+
+All the data and metadata can be found in [this link] (http://microdatos.dane.gov.co/index.php/catalog/626). The data has 331 variables including spending behaviours and financial burden of the households.
 
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
-
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+There is one notebooks available here to showcase work related to the above questions. The notebook is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
 
 ## Results<a name="results"></a>
 
@@ -53,4 +38,4 @@ The main findings of the code can be found at the post available [here](https://
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
+Must give credit to DANE for the data.  You can find the Licensing for the data and other descriptive information at the link available [here](http://microdatos.dane.gov.co/index.php/catalog/626).  Otherwise, feel free to use the code here as you would like! 
