@@ -26,7 +26,7 @@ What question do we want to answer?
 Acknowledgement
 We are going to be using the data from the National Administrative Department of Statistics of Colombia DANE. The database is the result of a survey conducted to more than 25k households in three major cities in Colombia for 2018.
 
-All the data and metadata can be found in [this link] (http://microdatos.dane.gov.co/index.php/catalog/626). The data has 331 variables including spending behaviours and financial burden of the households.
+All the data and metadata can be found in [this link](http://microdatos.dane.gov.co/index.php/catalog/626). The data has 331 variables including spending behaviours and financial burden of the households.
 
 
 ## File Descriptions <a name="files"></a>
