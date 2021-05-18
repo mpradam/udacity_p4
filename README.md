@@ -51,6 +51,6 @@ Must give credit to DANE for the data.  You can find the Licensing for the data 
 
 ## Libraries<a name="libraries"></a>
 
-The libraris used in this project are the following:
+The libraries used in this project are the following:
 
 numpy, pandas, math, matplotlib, sklearn, seaborn and xgboost
