@@ -7,6 +7,7 @@
 3. [File Descriptions](#files)
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
+6. [Libraries](#libraries)
 
 ## Installation <a name="installation"></a>
 
@@ -35,8 +36,21 @@ There is one notebooks available here to showcase work related to the above ques
 
 ## Results<a name="results"></a>
 
+Public available information can be used to identify what variables coud make for good predictors for income. This information can be used for financial entities to identify which variables are important to capture new information and include it in the models.
+
+Further improvements can be made to both, the model and the insights extracted from it.
+
+The model: There are almost 300 additional variables to extract information from. The problem is the underrepresentation of some variables.
+Insights: Some further analysis can be made on the variables that we found important explaining the income. Some transformation and created variables can be used to do this.
+
 The main findings of the code can be found at the post available [here](https://mpradam.medium.com/income-prediction-and-validation-ec7fece1cd8a).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 Must give credit to DANE for the data.  You can find the Licensing for the data and other descriptive information at the link available [here](http://microdatos.dane.gov.co/index.php/catalog/626).  Otherwise, feel free to use the code here as you would like! 
+
+## Libraries<a name="libraries"></a>
+
+The libraris used in this project are the following:
+
+numpy, pandas, math, matplotlib, sklearn, seaborn and xgboost
