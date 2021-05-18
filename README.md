@@ -35,7 +35,7 @@ There is one notebooks available here to showcase work related to the above ques
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://mpradam.medium.com/boston-airbnb-to-comment-or-not-to-comment-435e2beb911).
+The main findings of the code can be found at the post available [here](https://mpradam.medium.com/income-prediction-and-validation-ec7fece1cd8a).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
